@@ -1,0 +1,33 @@
+<!doctype html>
+<html manifest="project2.appcache">
+ <head>
+  <meta charset="UTF-8">
+  <title>My flappy bird</title>
+  <script src="jquery-1.9.1.js"></script>
+  <script src="kinetic-v5.0.1.js"></script>
+
+<style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+	  .start{
+		position:absolute;
+		margin-left:120px;
+		margin-top:-280px;
+		width:100px;
+		height:40px;
+	}
+	.started{
+		position:absolute;
+		width:0px;
+		height:0px;
+	}
+    </style>
+ </head>
+ <body >
+	<div id="container"></div>
+	  <script src="Main.js"></script>	
+	  <img id="startButton" class="start" alt= "" src="start_off.png"/>
+ </body>
+</html>
